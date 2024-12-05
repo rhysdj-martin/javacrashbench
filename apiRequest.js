@@ -1,7 +1,7 @@
 // Fetch data from a public API (JSONPlaceholder example)
 async function fetchData() {
     try {
-        const response = await fetch("http://www.rhysmartin.live");
+        const response = await fetch("");
         const data = await response.json();
         console.log(data);
     } catch (error) {
